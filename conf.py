@@ -25,3 +25,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+
+
+# -- Options for internationalisation ----------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#intl-options
+
+locale_dirs = ['locale/']
+gettext_compact = False
