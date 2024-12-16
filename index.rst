@@ -12,7 +12,18 @@ Just a little place for me to test the PyData Sphinx Theme.
    :maxdepth: 2
    :caption: Contents:
 
+Example table
+=============
 
+.. table:: Truth table for "not"
+   :widths: auto
+
+   =====  =====
+     A    not A
+   =====  =====
+   False  True
+   True   False
+   =====  =====
 
 Indices and tables
 ==================
