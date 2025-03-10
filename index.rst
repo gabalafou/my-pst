@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+:html_theme.sidebar_secondary.remove:
+
 Welcome to My PST's documentation!
 ==================================
 
@@ -10,7 +12,9 @@ Just a little place for me to test the PyData Sphinx Theme.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+   section-a/index
+   section-b/index
 
 Example table
 =============
